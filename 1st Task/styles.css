@@ -1,0 +1,86 @@
+/* Custom CSS */
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.project-card {
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.resume-card {
+  transition: transform 0.3s;
+}
+
+.resume-card:hover {
+  transform: scale(1.05);
+}
+
+.contact-card {
+  transition: transform 0.3s;
+}
+
+.contact-card:hover {
+  transform: scale(1.05);
+}
+.goto_top{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+.nav-clr{
+  background-image: linear-gradient(to bottom, #e056fd, #7ed6df, #686de0);
+}
+.skills{
+  background-image: linear-gradient(to bottom, #e056fd, #7ed6df, #686de0);
+}
+
+/* Animate.css */
+
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@media (max-width: 767.98px) {
+  .project-card,
+  .resume-card,
+  .contact-card {
+    margin-bottom: 30px;
+  }
+}

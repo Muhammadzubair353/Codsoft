@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Personal Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar sticky navbar-expand-lg navbar-light nav-clr" id="top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./Assets/smz.png" alt="smz"  height="50px"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light py-5 text-center text-white skills">
+      <div class="container animate__animated  animate__bounceInRight">
+        <img
+          src="./Assets/user-3.jpg"
+          alt="Muhammad Zubair"
+          class="img-fluid rounded-circle mb-3"
+          style="width: 280px; height: 300px"
+        />
+        <h2 class="mb-4">Syed Muhammad Zubair</h2>
+        <p class="lead"> I  am a web developer with experience in building responsive web apps and websites using HTML, CSS, JavaScript. I am seeking a challenging role in an organization which involves participation in the formulation of strategy, planning, execution and decision making. An organization where I can demonstrate & develop my skills and knowledge and contribute towards achieving organizations desired objectives.
+
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 skills">
+      <div class="container" data-aos="fade-up">
+        <h2 class="text-center mb-5 text-white">My Skills</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up">
+            <div class="card h-100 animate__animated animate__heartBeat" style="border-top-left-radius: 30px; border-bottom-right-radius: 30px;">
+              <div class="card-body" data-aos="fade-up">
+                <h5 class="card-title">Frontend Development</h5>
+                  <p class="card-text" data-aos="flip-right">
+                    <ul>
+                      <li>HTML5 / CSS3</li>
+                      <li>Javascript</li>
+                      <li>Bootstrap</li>
+                      <li>jQuery</li>
+                      <li>React</li>
+                      <li>Node.js</li>
+                      <li>Express.js</li>
+                    </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 animate__animated animate__bounceInDown" style="border-top-left-radius: 30px; border-bottom-right-radius: 30px;">
+              <div class="card-body" data-aos="fade-up">
+                <h5 class="card-title">Financial Management</h5>
+                <p class="card-text" data-aos="flip-right">
+                  <ul>
+                    <li>Budgeting and Forecasting</li>
+                    <li>Investment Planning</li>
+                    <li>Risk Management</li>
+                    <li>Risk Analysis</li>
+                    <li>Financial Reporting</li>
+                    <li>Accounting</li>
+                    <li>Financial Planning</li>
+                    <li>Financial Analysis</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 animate__animated animate__bounceInRight" style="border-top-left-radius: 30px; border-bottom-right-radius: 30px;">
+              <div class="card-body " data-aos="fade-down">
+                <h5 class="card-title">Sales Management</h5>
+                <p class="card-text" data-aos="flip-right">
+                  <ul>
+                    <li>Sales Planning</li>
+                    <li>Sales Strategy</li>
+                    <li>Sales Analysis</li>
+                    <li>Sales Execution</li>
+                    <li>Sales Decision Making</li>
+                    <li>Marketing</li>
+                    <li>Customer Service</li>
+                    <li>Customer Relationship Management</li>
+                    <li>Customer Support</li>
+                    <li>Project Management</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 skills">
+      <div class="container" data-aos="flip-right">
+        <h2 class="text-center mb-5">My Projects</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-left">
+            <div class="project-card animate__animated animate__fadeInUp">
+              <img
+                src="./Assets/apple.webp"
+                alt="Project 1"
+                class="img-fluid"
+                style="border-radius: 10px"
+              />
+              <h3 class="mt-3">Apple Store Website Design</h3>
+              <a href="https://apple-clonebysmz.netlify.app/" class="btn btn-primary btn-sm"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-up">
+            <div class="project-card animate__animated animate__fadeInUp">
+              <img
+                src="./Assets/tours.jpg"
+                alt="Project 2"
+                class="img-fluid"
+                style="border-radius: 10px"
+              />
+              <h3 class="mt-3">Travel & Tourism Template</h3>
+              <a href="https://traveltourism-bysmz.netlify.app/" class="btn btn-primary btn-sm"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-right">
+            <div class="project-card animate__animated animate__fadeInUp">
+              <img
+                src="./Assets/upwork.jfif"
+                alt="Project 3"
+                class="img-fluid"
+                style="border-radius: 10px"
+              />
+              <h3 class="mt-3">Upwork Clone</h3>
+              <a href="#" class="btn btn-primary btn-sm"
+                >View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="py-5 bg-light text-white skills">
+      <div class="container" data-aos="fade-down-left">
+        <h2 class="text-center mb-5">Resume</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="resume-card animate__animated animate__fadeInLeft">
+              <h4 class="mb-3">Education</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <strong>Degree:</strong> Masters in Business Administration
+                </li>
+                <li>
+                  <strong>Institution:</strong> University of Karachi.
+                </li>
+                <li>
+                  <strong>Masters Date:</strong> May 2004
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-down-up">
+            <div class="resume-card animate__animated animate__fadeInUp">
+              <h4 class="mb-3"> Last Experience</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <strong>Position:</strong> Manager Recovery & Sales 
+                </li>
+                <li>
+                  <strong>Company:</strong> Arbab Traders - Pakistan
+                </li>
+                <li>
+                  <strong>Employment Date:</strong> 2018 - 2023
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="resume-card animate__animated animate__fadeInRight">
+              <h4 class="mb-3">Skills</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <strong>Frontend Development:</strong> Intermediate
+                </li>
+                <li>
+                  <strong>Financial Management:</strong> Proficient
+                </li>
+                <li>
+                  <strong>Sales Management:</strong> Proficient
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 text-white skills">
+      <div class="container">
+        <h2 class="text-center mb-5">Contact Me</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="contact-card animate__animated animate__fadeInUp">
+              <h4 class="mb-3">Email</h4>
+              <p>smz150418@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="contact-card animate__animated animate__fadeInUp">
+              <h4 class="mb-3">Phone</h4>
+              <p>+92-321-9210028</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="contact-card animate__animated animate__fadeInUp">
+              <h4 class="mb-3">My Profiles</h4>
+              <p>
+                <a href="www.linkedin.com/in/syed-muhammad-zubair-35a02717a"><img src="./Assets/linkedin.png" alt="" height="30"></a>
+                <a href="https://github.com/Muhammadzubair353/Codesoft.git"><img src="./Assets/github-logo-vector.png" alt="" height="30"></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="py-3 bg-light text-white skills">
+      <div class="container">
+        <p class="text-center">
+          &copy; 2024 Made by SMZ. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- Go to top -->
+    <div class="goto_top">
+      <a href="#top"><img src="./Assets/CMmxzp_P_IEDEAE=.webp" alt="" height="50"></a>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoJtKh7z7lGz7fuP4F8nfdFvAOA6Gg/z6Y5J6XqqyGXYM2ntX5"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQtgRM3/JyCRrRt63pJNNF8AKUFuK0cA/EsvmnH8xkk4E8/AZfdU"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
